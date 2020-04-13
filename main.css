@@ -1,0 +1,21 @@
+.rep {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h3, .rep__polAffil, .rep__distInfo, .rep__commitsServing, a {
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3 {
+    border: 1px solid black;
+}
